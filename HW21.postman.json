@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "cdb91e28-5bb1-4e29-b65b-a33af5ddd25c",
+		"name": "HW21Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43886538",
+		"_collection_link": "https://innokenty-2656670.postman.co/workspace/Innokenty's-Workspace~f2423a00-71b0-4fb0-87aa-a42ac230ada2/collection/43886538-cdb91e28-5bb1-4e29-b65b-a33af5ddd25c?action=share&source=collection_link&creator=43886538"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3050/accounts/register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"CatAdi@petmail.com\",\r\n  \"password\": \"777888999\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3050/accounts/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3050",
+					"path": [
+						"accounts",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3050/accounts/register",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"CatAdi@petmail.com\",\r\n  \"password\": \"777888999\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3050/accounts/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3050",
+					"path": [
+						"accounts",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
