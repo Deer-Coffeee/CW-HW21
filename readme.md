@@ -13,3 +13,5 @@ changed only "scripts" in json -> package.json
 only new line -> app.ts
 
 added postman -> HW21.postman.json
+
+.env - deleted!
